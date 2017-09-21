@@ -77,5 +77,5 @@
         </b:row>
     </form>
 </b:container>
-<script src="/webapp/static/js/angular/controllers/login-controller.js"></script>
+<script src="/webapp-jsp/static/js/angular/controllers/login-controller.js"></script>
 <%@ include file="/WEB-INF/jsp/includes/footer.jsp"%>
