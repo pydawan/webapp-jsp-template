@@ -20,7 +20,9 @@ eclipse {
    }
 }
 
-eclipse.project { natures 'org.springsource.ide.eclipse.gradle.core.nature' }
+eclipse.project { 
+   natures 'org.springsource.ide.eclipse.gradle.core.nature' 
+}
 
 repositories {
    mavenLocal()
@@ -76,7 +78,7 @@ dependencies {
    compile files('./src/main/webapp/WEB-INF/lib/verify-v1.0.0.jar')
    compile files('./src/main/webapp/WEB-INF/lib/jext-v1.0.0.jar')
    compile files('./src/main/webapp/WEB-INF/lib/bootstrap.jsp.jar')
-   compile files('./src/main/webapp/WEB-INF/lib/jedi-app-v1.0.0jar')
+   compile files('./src/main/webapp/WEB-INF/lib/jedi-app-v1.0.0.jar')
    compile files('./src/main/webapp/WEB-INF/lib/jedi-orm-v1.0.0.jar')
    compile files('./src/main/webapp/WEB-INF/lib/livereload-jvm-0.2.0-onejar.jar')
    compile files('./src/main/webapp/WEB-INF/lib/pickle-v1.0.0.jar')
