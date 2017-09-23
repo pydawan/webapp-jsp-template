@@ -86,7 +86,7 @@ app.factory('$api', function($http) {
         },
         'login' : function(usuario) {
             parametros = angular.toJson(usuario);
-            return $http.post('/cadservidor/login', parametros, { headers : tipoConteudo.json });
+            return $http.post('/autenticacao/login', parametros, { headers : tipoConteudo.json });
         }
     };
 });
